@@ -32,7 +32,7 @@ as well as ideas from [hatank](https://github.com/rguillon/hatank) by Renaud Gui
 | CSN/SS | GP8        |
 
 WiFi and MQTT credentials can be configured in [mqtt.py](src/xComfort/mqtt.py)
-The devices can be added in [main.py](src/xComfort/main.py) using the **devices** dictionary.
+The devices can be added in [main.py](src/main.py) using the **devices** dictionary.
 All you need is the device’s serial number in decimal format, a name for the device, and a type chosen from **dimmer** or **switch**.
 
 ```json
